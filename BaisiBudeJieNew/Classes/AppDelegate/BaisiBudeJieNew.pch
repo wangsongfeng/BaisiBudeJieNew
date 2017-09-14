@@ -1,0 +1,14 @@
+//
+//  BaisiBudeJieNew.pch
+//  BaisiBudeJieNew
+//
+//  Created by apple on 2017/9/14.
+//  Copyright © 2017年 yangchao. All rights reserved.
+//
+
+#ifndef BaisiBudeJieNew_pch
+#define BaisiBudeJieNew_pch
+
+
+#import "AFNetworking.h"
+#endif /* BaisiBudeJieNew_pch */
