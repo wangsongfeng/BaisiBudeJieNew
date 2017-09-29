@@ -10,5 +10,17 @@
 #define BaisiBudeJieNew_pch
 
 
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+
+#define iphone6P (ScreenH == 736)
+#define iphone6 (ScreenH == 667)
+#define iphone5 (ScreenH == 568)
+#define iphone4 (ScreenH == 480)
+
 #import "AFNetworking.h"
+#import "DALabeledCircularProgressView.h"
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "UIImageView+WebCache.h"
 #endif /* BaisiBudeJieNew_pch */

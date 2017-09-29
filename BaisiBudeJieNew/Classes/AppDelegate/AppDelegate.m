@@ -20,8 +20,7 @@
     self.window.rootViewController=[[ADViewController alloc]init];
     self.window.backgroundColor=[UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    
+        
     return YES;
 }
 
