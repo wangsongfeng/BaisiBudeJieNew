@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18360E62201ED379005CC905 /* BJMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18360E61201ED379005CC905 /* BJMainVC.m */; };
+		18360E65201EF72F005CC905 /* BJPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18360E64201EF72F005CC905 /* BJPushGuideView.m */; };
+		18360E67201EF750005CC905 /* BJPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18360E66201EF750005CC905 /* BJPushGuideView.xib */; };
+		18360E6D201F0600005CC905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18360E6C201F0600005CC905 /* LaunchScreen.storyboard */; };
 		18549F4A1F6A5FBE0061F54F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18549F491F6A5FBE0061F54F /* main.m */; };
 		18549F631F6A5FBF0061F54F /* BaisiBudeJieNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18549F621F6A5FBF0061F54F /* BaisiBudeJieNewTests.m */; };
 		18549F6E1F6A5FBF0061F54F /* BaisiBudeJieNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18549F6D1F6A5FBF0061F54F /* BaisiBudeJieNewUITests.m */; };
 		18549F851F6A6AF20061F54F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18549F7E1F6A6AF20061F54F /* AppDelegate.m */; };
 		18549F861F6A6AF20061F54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18549F7F1F6A6AF20061F54F /* Assets.xcassets */; };
-		18549F871F6A6AF20061F54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18549F801F6A6AF20061F54F /* LaunchScreen.storyboard */; };
 		18549F881F6A6AF20061F54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18549F821F6A6AF20061F54F /* Main.storyboard */; };
 		18549FA41F6A74170061F54F /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18549FA31F6A74170061F54F /* ADViewController.m */; };
 		18A4A9371F6E5D1400E2FE76 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4A9301F6E5D1400E2FE76 /* LaunchImage-568h@2x.png */; };
@@ -44,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18360E60201ED378005CC905 /* BJMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJMainVC.h; sourceTree = "<group>"; };
+		18360E61201ED379005CC905 /* BJMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJMainVC.m; sourceTree = "<group>"; };
+		18360E63201EF72F005CC905 /* BJPushGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJPushGuideView.h; sourceTree = "<group>"; };
+		18360E64201EF72F005CC905 /* BJPushGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJPushGuideView.m; sourceTree = "<group>"; };
+		18360E66201EF750005CC905 /* BJPushGuideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJPushGuideView.xib; sourceTree = "<group>"; };
+		18360E6C201F0600005CC905 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18549F451F6A5FBE0061F54F /* BaisiBudeJieNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaisiBudeJieNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18549F491F6A5FBE0061F54F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18549F5E1F6A5FBF0061F54F /* BaisiBudeJieNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaisiBudeJieNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +64,6 @@
 		18549F7D1F6A6AF20061F54F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18549F7E1F6A6AF20061F54F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18549F7F1F6A6AF20061F54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18549F811F6A6AF20061F54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18549F831F6A6AF20061F54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18549F841F6A6AF20061F54F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18549FA21F6A74170061F54F /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
@@ -126,6 +134,42 @@
 			path = LaunchImage;
 			sourceTree = "<group>";
 		};
+		18360E5C201ED367005CC905 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18360E5D201ED367005CC905 /* Controller */,
+				18360E5E201ED367005CC905 /* Model */,
+				18360E5F201ED367005CC905 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18360E5D201ED367005CC905 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18360E60201ED378005CC905 /* BJMainVC.h */,
+				18360E61201ED379005CC905 /* BJMainVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18360E5E201ED367005CC905 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18360E5F201ED367005CC905 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18360E63201EF72F005CC905 /* BJPushGuideView.h */,
+				18360E64201EF72F005CC905 /* BJPushGuideView.m */,
+				18360E66201EF750005CC905 /* BJPushGuideView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18549F3C1F6A5FBE0061F54F = {
 			isa = PBXGroup;
 			children = (
@@ -187,8 +231,8 @@
 			isa = PBXGroup;
 			children = (
 				18549F7C1F6A6AF20061F54F /* AppDelegate */,
-				18549F9E1F6A70410061F54F /* Main */,
 				18549F9A1F6A70410061F54F /* AD */,
+				18360E5C201ED367005CC905 /* Main */,
 				181550EB1F6B66B8006FE551 /* Other */,
 			);
 			path = Classes;
@@ -200,10 +244,10 @@
 				18549F7D1F6A6AF20061F54F /* AppDelegate.h */,
 				18549F7E1F6A6AF20061F54F /* AppDelegate.m */,
 				18549F7F1F6A6AF20061F54F /* Assets.xcassets */,
-				18549F801F6A6AF20061F54F /* LaunchScreen.storyboard */,
 				18549F821F6A6AF20061F54F /* Main.storyboard */,
 				18549F841F6A6AF20061F54F /* Info.plist */,
 				18549FA51F6A7BC60061F54F /* BaisiBudeJieNew.pch */,
+				18360E6C201F0600005CC905 /* LaunchScreen.storyboard */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -237,37 +281,6 @@
 			sourceTree = "<group>";
 		};
 		18549F9D1F6A70410061F54F /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18549F9E1F6A70410061F54F /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				18549F9F1F6A70410061F54F /* Controller */,
-				18549FA01F6A70410061F54F /* Model */,
-				18549FA11F6A70410061F54F /* View */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		18549F9F1F6A70410061F54F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		18549FA01F6A70410061F54F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		18549FA11F6A70410061F54F /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -416,8 +429,9 @@
 				18A4A93B1F6E5D1400E2FE76 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				18A4A9371F6E5D1400E2FE76 /* LaunchImage-568h@2x.png in Resources */,
 				18A4A93A1F6E5D1400E2FE76 /* LaunchImage-800-667h@2x.png in Resources */,
-				18549F871F6A6AF20061F54F /* LaunchScreen.storyboard in Resources */,
 				18A4A93D1F6E5D1400E2FE76 /* LaunchImage@2x.png in Resources */,
+				18360E6D201F0600005CC905 /* LaunchScreen.storyboard in Resources */,
+				18360E67201EF750005CC905 /* BJPushGuideView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,7 +508,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18549F851F6A6AF20061F54F /* AppDelegate.m in Sources */,
+				18360E62201ED379005CC905 /* BJMainVC.m in Sources */,
 				18549FA41F6A74170061F54F /* ADViewController.m in Sources */,
+				18360E65201EF72F005CC905 /* BJPushGuideView.m in Sources */,
 				18A4A9401F6E6BFC00E2FE76 /* ADModel.m in Sources */,
 				18549F4A1F6A5FBE0061F54F /* main.m in Sources */,
 			);
@@ -532,14 +548,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18549F801F6A6AF20061F54F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18549F811F6A6AF20061F54F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		18549F821F6A6AF20061F54F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -650,12 +658,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W5PE2ZM23A;
-				GCC_PREFIX_HEADER = /Users/apple/Desktop/BaisiBudeJieNew/BaisiBudeJieNew/Classes/AppDelegate/BaisiBudeJieNew.pch;
+				GCC_PREFIX_HEADER = "/Users/apple/Desktop/IOS 百思不得姐/BaisiBudeJieNew/Classes/AppDelegate/BaisiBudeJieNew.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/BaisiBudeJieNew/Classes/AppDelegate/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oufei.com.BaisiBudeJieNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -666,12 +675,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W5PE2ZM23A;
-				GCC_PREFIX_HEADER = /Users/apple/Desktop/BaisiBudeJieNew/BaisiBudeJieNew/Classes/AppDelegate/BaisiBudeJieNew.pch;
+				GCC_PREFIX_HEADER = "/Users/apple/Desktop/IOS 百思不得姐/BaisiBudeJieNew/Classes/AppDelegate/BaisiBudeJieNew.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/BaisiBudeJieNew/Classes/AppDelegate/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oufei.com.BaisiBudeJieNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
