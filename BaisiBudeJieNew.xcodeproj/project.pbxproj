@@ -18,6 +18,14 @@
 		18549F861F6A6AF20061F54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18549F7F1F6A6AF20061F54F /* Assets.xcassets */; };
 		18549F881F6A6AF20061F54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18549F821F6A6AF20061F54F /* Main.storyboard */; };
 		18549FA41F6A74170061F54F /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18549FA31F6A74170061F54F /* ADViewController.m */; };
+		18695FE72024CB9100612F47 /* BJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18695FE62024CB9100612F47 /* BJTabBar.m */; };
+		18695FEA2024CD6600612F47 /* UIView+CGFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18695FE92024CD6600612F47 /* UIView+CGFloatView.m */; };
+		1889EDE72024BABE0072C007 /* BJNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889EDE62024BABE0072C007 /* BJNavigationVC.m */; };
+		1889EDEB2024C26C0072C007 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889EDEA2024C26C0072C007 /* UIBarButtonItem+item.m */; };
+		1889EE022024C59B0072C007 /* BJEssenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889EE012024C59B0072C007 /* BJEssenceVC.m */; };
+		1889EE052024C5C60072C007 /* BJNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889EE042024C5C50072C007 /* BJNewVC.m */; };
+		1889EE082024C5E00072C007 /* BJFriendTrendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889EE072024C5E00072C007 /* BJFriendTrendVC.m */; };
+		1889EE0B2024C6010072C007 /* BJMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889EE0A2024C6010072C007 /* BJMeVC.m */; };
 		18A4A9371F6E5D1400E2FE76 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4A9301F6E5D1400E2FE76 /* LaunchImage-568h@2x.png */; };
 		18A4A9381F6E5D1400E2FE76 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4A9311F6E5D1400E2FE76 /* LaunchImage-700-568h@2x.png */; };
 		18A4A9391F6E5D1400E2FE76 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4A9321F6E5D1400E2FE76 /* LaunchImage-700@2x.png */; };
@@ -69,6 +77,22 @@
 		18549FA21F6A74170061F54F /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
 		18549FA31F6A74170061F54F /* ADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		18549FA51F6A7BC60061F54F /* BaisiBudeJieNew.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaisiBudeJieNew.pch; sourceTree = "<group>"; };
+		18695FE52024CB9100612F47 /* BJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJTabBar.h; sourceTree = "<group>"; };
+		18695FE62024CB9100612F47 /* BJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJTabBar.m; sourceTree = "<group>"; };
+		18695FE82024CD6600612F47 /* UIView+CGFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CGFloatView.h"; sourceTree = "<group>"; };
+		18695FE92024CD6600612F47 /* UIView+CGFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGFloatView.m"; sourceTree = "<group>"; };
+		1889EDE52024BABE0072C007 /* BJNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJNavigationVC.h; sourceTree = "<group>"; };
+		1889EDE62024BABE0072C007 /* BJNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJNavigationVC.m; sourceTree = "<group>"; };
+		1889EDE92024C26C0072C007 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
+		1889EDEA2024C26C0072C007 /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		1889EE002024C59B0072C007 /* BJEssenceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJEssenceVC.h; sourceTree = "<group>"; };
+		1889EE012024C59B0072C007 /* BJEssenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJEssenceVC.m; sourceTree = "<group>"; };
+		1889EE032024C5C50072C007 /* BJNewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJNewVC.h; sourceTree = "<group>"; };
+		1889EE042024C5C50072C007 /* BJNewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJNewVC.m; sourceTree = "<group>"; };
+		1889EE062024C5E00072C007 /* BJFriendTrendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJFriendTrendVC.h; sourceTree = "<group>"; };
+		1889EE072024C5E00072C007 /* BJFriendTrendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJFriendTrendVC.m; sourceTree = "<group>"; };
+		1889EE092024C6010072C007 /* BJMeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJMeVC.h; sourceTree = "<group>"; };
+		1889EE0A2024C6010072C007 /* BJMeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJMeVC.m; sourceTree = "<group>"; };
 		18A4A9301F6E5D1400E2FE76 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
 		18A4A9311F6E5D1400E2FE76 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
 		18A4A9321F6E5D1400E2FE76 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
@@ -121,6 +145,7 @@
 		181550EB1F6B66B8006FE551 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				1889EDE82024C2430072C007 /* Category */,
 				181550EC1F6B66B8006FE551 /* LaunchImage */,
 			);
 			path = Other;
@@ -149,6 +174,8 @@
 			children = (
 				18360E60201ED378005CC905 /* BJMainVC.h */,
 				18360E61201ED379005CC905 /* BJMainVC.m */,
+				1889EDE52024BABE0072C007 /* BJNavigationVC.h */,
+				1889EDE62024BABE0072C007 /* BJNavigationVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,6 +190,8 @@
 		18360E5F201ED367005CC905 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18695FE52024CB9100612F47 /* BJTabBar.h */,
+				18695FE62024CB9100612F47 /* BJTabBar.m */,
 				18360E63201EF72F005CC905 /* BJPushGuideView.h */,
 				18360E64201EF72F005CC905 /* BJPushGuideView.m */,
 				18360E66201EF750005CC905 /* BJPushGuideView.xib */,
@@ -233,6 +262,11 @@
 				18549F7C1F6A6AF20061F54F /* AppDelegate */,
 				18549F9A1F6A70410061F54F /* AD */,
 				18360E5C201ED367005CC905 /* Main */,
+				1889EDF82024C5370072C007 /* Essence */,
+				1889EDFC2024C5370072C007 /* New */,
+				1889EDF02024C5370072C007 /* FriendTrend */,
+				1889EDF42024C5370072C007 /* Me */,
+				1889EDEC2024C5370072C007 /* Publish */,
 				181550EB1F6B66B8006FE551 /* Other */,
 			);
 			path = Classes;
@@ -281,6 +315,180 @@
 			sourceTree = "<group>";
 		};
 		18549F9D1F6A70410061F54F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1889EDE82024C2430072C007 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1889EDE92024C26C0072C007 /* UIBarButtonItem+item.h */,
+				1889EDEA2024C26C0072C007 /* UIBarButtonItem+item.m */,
+				18695FE82024CD6600612F47 /* UIView+CGFloatView.h */,
+				18695FE92024CD6600612F47 /* UIView+CGFloatView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1889EDEC2024C5370072C007 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				1889EDED2024C5370072C007 /* Controller */,
+				1889EDEE2024C5370072C007 /* Model */,
+				1889EDEF2024C5370072C007 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		1889EDED2024C5370072C007 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1889EDEE2024C5370072C007 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1889EDEF2024C5370072C007 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1889EDF02024C5370072C007 /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				1889EDF12024C5370072C007 /* Controller */,
+				1889EDF22024C5370072C007 /* Model */,
+				1889EDF32024C5370072C007 /* View */,
+			);
+			path = FriendTrend;
+			sourceTree = "<group>";
+		};
+		1889EDF12024C5370072C007 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1889EE062024C5E00072C007 /* BJFriendTrendVC.h */,
+				1889EE072024C5E00072C007 /* BJFriendTrendVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1889EDF22024C5370072C007 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1889EDF32024C5370072C007 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1889EDF42024C5370072C007 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1889EDF52024C5370072C007 /* Controller */,
+				1889EDF62024C5370072C007 /* Model */,
+				1889EDF72024C5370072C007 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1889EDF52024C5370072C007 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1889EE092024C6010072C007 /* BJMeVC.h */,
+				1889EE0A2024C6010072C007 /* BJMeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1889EDF62024C5370072C007 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1889EDF72024C5370072C007 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1889EDF82024C5370072C007 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				1889EDF92024C5370072C007 /* Controller */,
+				1889EDFA2024C5370072C007 /* Model */,
+				1889EDFB2024C5370072C007 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		1889EDF92024C5370072C007 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1889EE002024C59B0072C007 /* BJEssenceVC.h */,
+				1889EE012024C59B0072C007 /* BJEssenceVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1889EDFA2024C5370072C007 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1889EDFB2024C5370072C007 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1889EDFC2024C5370072C007 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				1889EDFD2024C5370072C007 /* Controller */,
+				1889EDFE2024C5370072C007 /* Model */,
+				1889EDFF2024C5370072C007 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		1889EDFD2024C5370072C007 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1889EE032024C5C50072C007 /* BJNewVC.h */,
+				1889EE042024C5C50072C007 /* BJNewVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1889EDFE2024C5370072C007 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1889EDFF2024C5370072C007 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -508,9 +716,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				18549F851F6A6AF20061F54F /* AppDelegate.m in Sources */,
+				1889EDEB2024C26C0072C007 /* UIBarButtonItem+item.m in Sources */,
 				18360E62201ED379005CC905 /* BJMainVC.m in Sources */,
+				1889EE052024C5C60072C007 /* BJNewVC.m in Sources */,
+				18695FE72024CB9100612F47 /* BJTabBar.m in Sources */,
 				18549FA41F6A74170061F54F /* ADViewController.m in Sources */,
 				18360E65201EF72F005CC905 /* BJPushGuideView.m in Sources */,
+				1889EE0B2024C6010072C007 /* BJMeVC.m in Sources */,
+				18695FEA2024CD6600612F47 /* UIView+CGFloatView.m in Sources */,
+				1889EDE72024BABE0072C007 /* BJNavigationVC.m in Sources */,
+				1889EE082024C5E00072C007 /* BJFriendTrendVC.m in Sources */,
+				1889EE022024C59B0072C007 /* BJEssenceVC.m in Sources */,
 				18A4A9401F6E6BFC00E2FE76 /* ADModel.m in Sources */,
 				18549F4A1F6A5FBE0061F54F /* main.m in Sources */,
 			);

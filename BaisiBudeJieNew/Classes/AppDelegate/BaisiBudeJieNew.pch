@@ -14,7 +14,11 @@
 #define ScreenH [UIScreen mainScreen].bounds.size.height
 
 #define TGColor(r,g,b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1]
+
 #define TGGrayColor(v) TGColor(v,v,v)
+
+#define NavTinColor [TGColor(252, 49, 89) colorWithAlphaComponent:0.9]
+
 #define iphone6P (ScreenH == 736)
 #define iphone6 (ScreenH == 667)
 #define iphone5 (ScreenH == 568)
@@ -25,4 +29,8 @@
 #import "Masonry.h"
 #import "MJExtension.h"
 #import "UIImageView+WebCache.h"
+#import "UIBarButtonItem+item.h"
+#import "UIView+CGFloatView.h"
+
+
 #endif /* BaisiBudeJieNew_pch */
